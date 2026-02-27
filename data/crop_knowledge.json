@@ -1,0 +1,88 @@
+{
+  "_metadata": {
+    "version": "1.0.0",
+    "description": "Static crop market knowledge base for Mun-Echarikkai prototype.",
+    "fields": {
+      "price_trend": "Direction of recent price movement: rising, stable, or falling.",
+      "volatility": "Price volatility classification: high, medium, or low.",
+      "demand_level": "Current market demand level: high, medium, or low."
+    }
+  },
+  "crops": {
+    "rice": {
+      "price_trend": "stable",
+      "volatility": "low",
+      "demand_level": "high"
+    },
+    "wheat": {
+      "price_trend": "rising",
+      "volatility": "low",
+      "demand_level": "high"
+    },
+    "maize": {
+      "price_trend": "stable",
+      "volatility": "medium",
+      "demand_level": "medium"
+    },
+    "sugarcane": {
+      "price_trend": "stable",
+      "volatility": "low",
+      "demand_level": "high"
+    },
+    "cotton": {
+      "price_trend": "falling",
+      "volatility": "high",
+      "demand_level": "medium"
+    },
+    "groundnut": {
+      "price_trend": "rising",
+      "volatility": "medium",
+      "demand_level": "medium"
+    },
+    "soybean": {
+      "price_trend": "stable",
+      "volatility": "medium",
+      "demand_level": "medium"
+    },
+    "tomato": {
+      "price_trend": "rising",
+      "volatility": "high",
+      "demand_level": "high"
+    },
+    "onion": {
+      "price_trend": "falling",
+      "volatility": "high",
+      "demand_level": "high"
+    },
+    "banana": {
+      "price_trend": "stable",
+      "volatility": "medium",
+      "demand_level": "high"
+    },
+    "mango": {
+      "price_trend": "rising",
+      "volatility": "medium",
+      "demand_level": "high"
+    },
+    "turmeric": {
+      "price_trend": "rising",
+      "volatility": "medium",
+      "demand_level": "medium"
+    },
+    "chilli": {
+      "price_trend": "falling",
+      "volatility": "high",
+      "demand_level": "medium"
+    },
+    "pulses": {
+      "price_trend": "stable",
+      "volatility": "medium",
+      "demand_level": "high"
+    },
+    "vegetables": {
+      "price_trend": "rising",
+      "volatility": "high",
+      "demand_level": "high"
+    }
+  }
+}
